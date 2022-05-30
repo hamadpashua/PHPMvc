@@ -1,0 +1,35 @@
+{
+    "name": "sailor/mvc",
+    "description": "A php mvc for small project and medium",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "SaiLite\\": "src/"
+        },
+        "files": ["src/Helpers/functions.php"]
+    },
+    "authors": [
+        {
+            "name": "hamadpashua",
+            "email": "102689093+hamadpashua@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "filp/whoops": "*",
+        "vlucas/phpdotenv": "*",
+        "jenssegers/blade": "*",
+        "illuminate/events":"*",
+        "illuminate/database":"*",
+        "rakit/validation": "^1.4"
+    },
+    "config":{
+       "optimize-autoload": true
+    }
+}
