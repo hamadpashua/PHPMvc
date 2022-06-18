@@ -1,8 +1,3 @@
-/* navbar */
-
-.navbar {
-    min-height: 20px !important;
-}
 .main-color {
     background: #000;
     color: #ffff;
@@ -14,7 +9,7 @@
 /* body */
 body {
     background: #ffff;
-    font-family: 'Fira Code medium';
+    font-family: 'Roboto' sans-serif;
 }
 
 .bd-placeholder-img {

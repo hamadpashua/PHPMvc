@@ -4,7 +4,7 @@ namespace SaiLite\Application;
 use Jenssegers\Blade\Blade;
 use SaiLite\Session\Session;
 
-class View
+abstract class View
 {
     /**
      * View Class for render tempalte

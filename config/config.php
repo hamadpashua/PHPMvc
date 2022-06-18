@@ -10,6 +10,8 @@ define('DS', DIRECTORY_SEPARATOR);
 
 /**
  * autoloading class from app
+ * using php recommended standard (psr-4)
+ * with namespaces.
  */
 
 spl_autoload_register(function ($class) {
